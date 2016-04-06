@@ -14,6 +14,10 @@ source:
   url: https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-macosx.zip [osx]
   sha256: 538cf488219ab27e309eafc629e2bcee9976990fe90b1ec334f541779150f8c1 [osx]
 
+  fn: phantomjs-2.1.1-windows.zip [win64]
+  url: https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-windows.zip [win64]
+  sha256: d9fb05623d6b26d3654d008eab3adafd1f6350433dfd16138c46161f42c7dcc8 [win64]
+
 test:
   commands:
     - phantomjs -v
